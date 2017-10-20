@@ -84,7 +84,7 @@ int main()
       {
           cout<<"("<<ch1.real*ch2.real-ch1.imag*ch2.imag<<","<<ch1.imag*ch2.real+ch1.real*ch2.imag<<")"<<endl;
       }
-      if (op=='/')
+      else if (op=='/')
       {
           cout<<"("<<(ch1.real*ch2.real+ch1.imag*ch2.imag)/(ch2.real*ch2.real+ch2.imag*ch2.imag)<<","<<(ch1.imag*ch2.real-ch1.real*ch2.imag)/(ch2.real*ch2.real+ch2.imag*ch2.imag)<<")"<<endl;
       }
