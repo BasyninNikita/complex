@@ -59,7 +59,6 @@ int main()
   istringstream stream(stroka);
   complex_t ch1;complex_t ch2;
   char op;
-  proverka(ch1);
   if(proverka(stream,ch1))
   {
       stream>>op;
